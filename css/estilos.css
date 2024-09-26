@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
+    height: 50px;
     border-bottom: 2px solid #f49cdf;
 }
 .logo{
@@ -38,7 +38,6 @@ body{
 }
 .nav-menu ul{
     height: 100%;
-    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,6 +97,12 @@ body{
   border: #f49cdf solid 2px;
   overflow: hidden;
   }
+  .card img{
+   
+  }
+  .card-title {
+
+  }
   /* ----------FOOTER--------- */
   .footer{
     background-color: #441856;
@@ -135,7 +140,7 @@ body{
         position: absolute;
         height: 200px;
         width: 40%;
-        top: 40px;
+        top: 50px;
         left: -100%;
         background-color: #42085b;
     }
