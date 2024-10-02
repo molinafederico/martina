@@ -4,6 +4,9 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: sans-serif;
+    font-size: 16px;
+
 }
 body{
     background-color: black;
@@ -48,7 +51,6 @@ body{
     align-items: center;
     height: 100%;
     border-right: #f49cdf 2px solid;
-    /* width: 100%; */
 }
 .nav-menu ul li a {
     padding: 5px;
@@ -82,7 +84,12 @@ body{
     height: 50%;
     object-fit: cover;
   }
-
+  /* ------icono whatsapp---------- */
+  .whatsapp {
+    position:fixed;
+  right: 0.5%;
+  bottom: 45px;
+  }
   /* -----seccion de tarjetas---- */
   .card-container{
     display: flex;
@@ -90,41 +97,45 @@ body{
     align-items: center;
     color: white;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 20px;
   }
-
   .card{
   border: #f49cdf solid 2px;
   overflow: hidden;
+  height: 340px;
   }
-  .card img{
-   
+  .card-img-top{
+    width: 305px;
+    height: 168px
   }
   .card-title {
+
+  }
+  .card-body {
 
   }
   /* ----------FOOTER--------- */
   .footer{
     background-color: #441856;
-    height: 40px;
+    height: 60px;
     width: 100%;
     padding: 4px;
-  }
-  .container-footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .redes-footer{
     display: flex;
-    justify-content: space-between;
-     margin: 0 20px;  
+    justify-content: center;
+     margin: 0 30px;     
   }
   .redes-footer img{
-    width: 40px;
+    width: 35px;
   }
-  .container-footer{
+  .footer{
     font-size: 12px;
+    margin-top: 20px;
   }
 /* -------s-MEDIA QUERYS--------- */
   @media  screen and (max-width: 860px){
@@ -167,5 +178,10 @@ body{
     }
     .nav-menu ul li a {
         /* margin: 0 auto; */
+    }
+    .footer {
+      flex-direction: column;
+      justify-content: start;
+      align-items:center;
     }
 }
