@@ -6,7 +6,6 @@
     list-style: none;
     font-family: sans-serif;
     font-size: 16px;
-
 }
 body{
     background-color: black;
@@ -138,8 +137,7 @@ body{
     margin-top: 20px;
   }
 /* -------s-MEDIA QUERYS--------- */
-  @media  screen and (max-width: 860px){
-    
+  @media  screen and (max-width: 860px){  
     /* -----------menu hamburguesa----------- */
     .nav-label{
         display: block;
@@ -155,13 +153,12 @@ body{
         left: -100%;
         background-color: #42085b;
     }
-    .nav-menu  ul {
+    .nav-menu ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding:0;
-        
+        padding:0;  
     }
     .nav-input:checked + .nav-menu {
        left:  0;
@@ -174,10 +171,6 @@ body{
         height: 100%;
         width: 100%;
         border-bottom: #f49cdf 2px solid;
-     
-    }
-    .nav-menu ul li a {
-        /* margin: 0 auto; */
     }
     .footer {
       flex-direction: column;
